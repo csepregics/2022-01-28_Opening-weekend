@@ -9,14 +9,14 @@ namespace _2022_01_28_Opening_weekend
 {
     class Program
     {
-        class Film
-        {
-
-        }
 
         static void Main(string[] args)
         {
-
+            List<Film> filmek = new List<Film>();
+            foreach (var sor in File.ReadAllLines("nyitohetvege.txt").Skip(1))
+            {
+                filmek.Add(new Film(sor));
+            }
 
 
 
