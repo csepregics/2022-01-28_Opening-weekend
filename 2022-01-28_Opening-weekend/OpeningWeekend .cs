@@ -9,6 +9,11 @@ namespace _2022_01_28_Opening_weekend
 {
     class Program
     {
+        class Film
+        {
+
+        }
+
         static void Main(string[] args)
         {
 
