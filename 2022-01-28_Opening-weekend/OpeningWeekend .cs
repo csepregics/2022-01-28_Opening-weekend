@@ -19,7 +19,7 @@ namespace _2022_01_28_Opening_weekend
             }
 
 
-
+            Console.WriteLine($"Filmek száma az adott állományban:{filmek.Count} db ");
 
 
 
